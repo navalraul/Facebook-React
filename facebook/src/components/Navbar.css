@@ -1,0 +1,192 @@
+#Navmain {
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid red; */
+    position: sticky;
+    top: 0;
+}
+#navbar {
+    width: 100%;
+    height: 65px;
+    /* border: 1px solid black; */
+    display: flex;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    box-shadow:2px 2px 5px 3px #808185;
+}
+.left {
+    width: 25%;
+    height: 65px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.img {
+    width: 20%;
+    height: 65px;
+    /* border: 1px solid violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img >img{
+    width: 60%;
+    cursor: pointer;
+}
+.int {
+    width: 60%;
+    height: 65px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.int >input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(240,242,245);
+    border-radius: 20px;
+    outline: none;
+}
+.middle {
+    width: 55%;
+    height: 65px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.middle1 {
+    width: 85%;
+    height: 65px;
+    /* border: 1px solid blue; */
+    display: flex;
+}
+.house {
+    width: 18%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-bottom: 5px solid #3d7be6;
+}
+.video {
+    width: 18%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video:hover {
+    cursor: pointer;
+    width: 18%;
+    height: 60px;
+    /* border: 1px solid gray; */
+    background-color: rgb(240,242,245);
+}
+.shop {
+    width: 18%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop:hover {
+    cursor: pointer;
+    width: 18%;
+    height: 60px;
+    /* border: 1px solid gray; */
+    background-color: rgb(240,242,245);
+}
+.group {
+    width: 18%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.group:hover {
+    cursor: pointer;
+    width: 18%;
+    height: 60px;
+    /* border: 1px solid gray; */
+    background-color: rgb(240,242,245);
+}
+.group >img {
+    width: 25%;
+}
+.feed {
+    width: 18%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feed:hover {
+    cursor: pointer;
+    width: 18%;
+    height: 60px;
+    /* border: 1px solid gray; */
+    background-color: rgb(240,242,245);
+}
+.right {
+    width: 20%;
+    height: 65px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu {
+    width: 20%;
+    height: 65px;
+    /* border: 1px solid green; */
+    cursor: pointer;
+}
+.menu >img {
+    width: 100%;
+    height: 60px;
+}
+.mess {
+    width: 15%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.mess >img {
+    width: 100%;
+    border-radius: 100px;
+}
+.noti {
+    width: 15%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.noti >img {
+    width: 100%;
+}
+.acc {
+    width: 15%;
+    height: 65px;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.acc >img {
+    width: 100%;
+}
